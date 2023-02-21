@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		th, td{
+			font-family: Buenard;
+		}
+		h1{
+			font-family: 'Oswald', sans-serif;
+		}
+		img{
+			height: 90px;
+			width: 90px;
+		}
+	</style>
+	<title>Q3 Exercise 2</title>
+</head>
+<body>
+	<div class="container">
+		<table class="table table-striped table-hover table-act table-active">
+	<h1>South Park Characters</h1>
+	<table class="table table-striped table-hover table-act table-active">
+		<tr>
+			<th>Profile Picture</th>
+			<th>First Name</th>
+			<th>Surname</th>
+			<th>Grade & Section</th>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/736x/c0/c0/9b/c0c09b3959783ef7327df7065e7b2614.jpg"></td>
+			<td>Eric</td>
+			<td>Cartman</td>
+			<td>9-Ruby</td>
+		</tr>
+		<tr>
+			<td><img src="https://preview.redd.it/obzvryxlhu191.gif?format=png8&s=199297125aab377fae07ad650cf5a973028598bd" class="img-thumbnail"></td>
+			<td>Kyle</td>
+			<td>Broflovski</td>
+			<td>9-Ruby</td>
+		</tr>
+		<tr>
+			<td><img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Kenny-McCormick.South-Park.webp" class="img-thumbnail"></td>
+			<td>Kenny</td>
+			<td>McCormick</td>
+			<td>9-Ruby</td>
+		</tr>
+	</table>
+	<h2>Enrolling Students</h2>
+	<form class="form-group">
+		<div class="checkbox">
+		<input type="check" name="old"> OLD STUDENT
+	</div>
+	<div class="checkbox">
+		<input type="check" name="new"> NEW STUDENT
+	</div>
+		FirstName: <input type="text" name="fname" class="form-control">
+		LastName: <input type="text" name="lname" class="form-control"><br>
+		Choose Class:
+		<select class="form-control">
+		<option>10-Ruby</option>
+		<option>10-Emerald</option>
+		<option>10-Sapphire</option>
+		<option>10-Onyx</option>
+		</select>
+		<br>
+		Date to Enroll
+		<input type="date" name="Enrolled" class="form-control"><br>
+		Upload Profile Picture:
+		<input type="reset" value="Click to upload" class="form-control"><br>
+
+		<input type="submit" value="ADD STUDENT" class="btn btn-success btn-block">
+		<input type="reset" value="CANCEL" class="btn btn danger btn-block">
+	</form>
+	</div>
+</body>
+</html>
